@@ -30,6 +30,7 @@
     btop
     zoxide
     hydra-check
+    zsh-powerlevel10k
 
     # Tools
     chezmoi
@@ -57,6 +58,7 @@
   };
 
   homebrew = {
+    
     brews = [
       "jenv"
       # "docker-completion"
