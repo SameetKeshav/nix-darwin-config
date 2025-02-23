@@ -1,8 +1,6 @@
 { config, pkgs, lib, ... }:
 let
   fnmInstallScript = ''
-    mkdir -p $HOME/.fnm
-    export FNM_DIR=$HOME/.fnm
     eval "$(fnm env)"
     for version in ${lib.concatStringsSep " " config.programs.fnm.versions}; do
       fnm install --arch x64 $version
@@ -31,11 +29,6 @@ in
 
   config = lib.mkIf config.programs.fnm.enable {
     home.packages = [ pkgs.fnm ];
-
-    home.sessionVariables = {
-      FNM_DIR = "$HOME/.fnm";
-      PATH = "${config.home.homeDirectory}/.fnm:${config.home.homeDirectory}/.fnm/aliases/default/bin:$PATH";
-    };
 
     home.activation = {
       fnm = lib.hm.dag.entryAfter ["writeBoundary"] ''
