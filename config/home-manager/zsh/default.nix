@@ -1,5 +1,10 @@
 { pkgs, ... }:
 {
+  programs.fzf = {
+  enable = true;
+  enableZshIntegration = true;
+  };
+
   programs.zsh = {
     enable = true;
     syntaxHighlighting.enable = true;
@@ -33,7 +38,7 @@
       }
        {
         name = "powerlevel10k-config";
-        src = ./zsh;
+        src = ../zsh;
         file = "p10k.zsh";
       }
       {
