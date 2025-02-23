@@ -53,7 +53,7 @@
 
     imports = [
       # ../config/home-manager/vscode/default.nix
-      ../config/home-manager/zsh/zsh.nix
+      ../config/home-manager/zsh/default.nix
     ];
   };
 
