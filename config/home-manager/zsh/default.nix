@@ -1,5 +1,9 @@
 { pkgs, ... }:
 {
+  imports = [
+    ./fnm.nix
+  ];
+  
   programs.fzf = {
   enable = true;
   enableZshIntegration = true;
