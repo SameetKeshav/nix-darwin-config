@@ -89,6 +89,7 @@
       "nosql-workbench"
 
       # Drivers etc.
+      "logi-options+"
       # "logitech-options"
 
       # Graphics
