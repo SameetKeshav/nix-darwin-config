@@ -22,6 +22,7 @@
     vim
     mkalias
     colima
+    zellij
 
     # Mac Utilities
     mas
@@ -87,6 +88,7 @@
       "another-redis-desktop-manager"
       "dbeaver-community"
       "nosql-workbench"
+      "amazon-workspaces"
 
       # Drivers etc.
       "logi-options+"
@@ -107,13 +109,13 @@
       # Office
       "obsidian"
       "adobe-acrobat-reader"
+      "notion"
 
       # Tools
       "appcleaner"
       "enpass"
       "lastpass"
       "the-unarchiver"
-      "balenaetcher"
 
       # apple default fonts
       # "font-sf-pro"
