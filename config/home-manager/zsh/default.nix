@@ -106,6 +106,9 @@
       watch = "npm run watch";
       build = "npm run build";
       lint = "npm run lint";
+
+      # Reconfigure flake
+      reconfigure = "nix run nix-darwin -- switch --flake ~/.config/nix-darwin/#Sameets-MacBook-Pro";
     };
 
     dirHashes = {
