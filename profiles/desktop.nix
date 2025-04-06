@@ -103,17 +103,18 @@
 
       # Media
       "spotify"
+      "tidal"
+      "multiviewer-for-f1"
 
       # Office
       "obsidian"
       "adobe-acrobat-reader"
+      "microsoft-office"
 
       # Tools
       "appcleaner"
-      "enpass"
       "lastpass"
       "the-unarchiver"
-      "balenaetcher"
 
       # apple default fonts
       # "font-sf-pro"
