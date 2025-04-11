@@ -13,7 +13,7 @@
   environment.systemPackages = with pkgs; [
 
     # Dev
-    awscli
+    awscli2
     docker
     docker-compose
     pipx
