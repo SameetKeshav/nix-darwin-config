@@ -121,7 +121,7 @@
       EDITOR = "nvim";
 
       # Oracle Instant Client
-      PATH="/usr/local/lib/instantclient_19_8:$PATH";
+      PATH="/usr/local/lib/instantclient_19_8:$HOME/development/flutter/bin:$PATH";
       ORACLE_HOME=/usr/local/lib/instantclient_19_8;
       DYLD_LIBRARY_PATH=/usr/local/lib/instantclient_19_8;
       OCI_LIB_DIR=/usr/local/lib/instantclient_19_8;
