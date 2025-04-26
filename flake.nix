@@ -17,5 +17,12 @@
         nix-homebrew.darwinModules.nix-homebrew
       ];
     };
+    darwinConfigurations."Intel-MacBook-Pro" = nix-darwin.lib.darwinSystem {
+      modules = [
+        ./configuration-intel.nix
+        home-manager.darwinModules.home-manager
+        nix-homebrew.darwinModules.nix-homebrew
+      ];
+    };
   };
 }
