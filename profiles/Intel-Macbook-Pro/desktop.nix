@@ -1,8 +1,8 @@
 { config, pkgs, lib, ... }:
 {
   imports = [
-    ./base.nix
-    ../config/homebrew.nix
+    ../base.nix
+    ../../config/homebrew.nix
     # (import "${builtins.fetchTarball https://github.com/nix-community/home-manager/archive/release-23.05.tar.gz}" { pkgs = pkgs; lib = lib; config = config; })
     # ../config/aerospace.nix
     # ../config/sketchybar.nix
