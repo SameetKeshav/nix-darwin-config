@@ -1,7 +1,7 @@
 { config, pkgs, lib, utils, ... }:
 {
   imports = [
-    ./profiles/desktop.nix
+    ./profiles/Intel-Macbook-Pro/desktop.nix
   ];
 
   nixpkgs.hostPlatform = "x86_64-darwin";
